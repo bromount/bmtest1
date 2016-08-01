@@ -1,0 +1,11 @@
+#!/usr/local/ctf
+
+#do
+api TrackerApp->getTrackerList "proj1214"
+foreach
+do
+print id
+done
+
+#go tracker22558
+#done
