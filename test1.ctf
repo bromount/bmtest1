@@ -1,0 +1,13 @@
+#!/usr/bin/ctf
+
+#server
+
+#api 19.40 "tracker22558"
+
+#api TrackerApp->addSingleSelectField tracker22558,Test1,,,,,,testt
+
+api TrackerApp->getTrackerData tracker22558
+set id as a
+print a
+print title
+

@@ -1,0 +1,12 @@
+#!/usr/bin/ctf
+
+for trackerid in tracker22558,tracker22436
+
+do
+api TrackerApp->addSingleSelectField $trackerid,apitest4,0,0,0,"anna,malai,test,project,api"
+go $trackerid configure apitest4
+set helpText This is a test
+commit
+done
+
+#print test
